@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-﻿apiVersion: kustomize.toolkit.fluxcd.io/v1
-=======
 apiVersion: kustomize.toolkit.fluxcd.io/v1
->>>>>>> bfed36e0233e49b33a709ba031924e2624f4c734
 kind: Kustomization
 metadata:
   name: podinfo
@@ -15,7 +11,4 @@ spec:
     kind: GitRepository
     name: flux-system
     namespace: flux-system
-<<<<<<< HEAD
-=======
 
->>>>>>> bfed36e0233e49b33a709ba031924e2624f4c734
